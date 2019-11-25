@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB83AF7238C86B400CE23D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB83AF6238C86B400CE23D2 /* AppDelegate.swift */; };
+		4BB83AF9238C86B400CE23D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB83AF8238C86B400CE23D2 /* SceneDelegate.swift */; };
+		4BB83AFC238C86B400CE23D2 /* Elly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BB83AFA238C86B400CE23D2 /* Elly.xcdatamodeld */; };
+		4BB83AFE238C86B400CE23D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB83AFD238C86B400CE23D2 /* ContentView.swift */; };
+		4BB83B00238C86B800CE23D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB83AFF238C86B800CE23D2 /* Assets.xcassets */; };
+		4BB83B03238C86B800CE23D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB83B02238C86B800CE23D2 /* Preview Assets.xcassets */; };
+		4BB83B06238C86B800CE23D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB83B04238C86B800CE23D2 /* LaunchScreen.storyboard */; };
+		4BB83B11238C86B800CE23D2 /* EllyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB83B10238C86B800CE23D2 /* EllyTests.swift */; };
+		4BB83B1C238C86B800CE23D2 /* EllyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB83B1B238C86B800CE23D2 /* EllyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BB83B0D238C86B800CE23D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB83AEB238C86B400CE23D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB83AF2238C86B400CE23D2;
+			remoteInfo = Elly;
+		};
+		4BB83B18238C86B800CE23D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB83AEB238C86B400CE23D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB83AF2238C86B400CE23D2;
+			remoteInfo = Elly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BB83AF3238C86B400CE23D2 /* Elly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB83AF6238C86B400CE23D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BB83AF8238C86B400CE23D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BB83AFB238C86B400CE23D2 /* Elly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Elly.xcdatamodel; sourceTree = "<group>"; };
+		4BB83AFD238C86B400CE23D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BB83AFF238C86B800CE23D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB83B02238C86B800CE23D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BB83B05238C86B800CE23D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BB83B07238C86B800CE23D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB83B0C238C86B800CE23D2 /* EllyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB83B10238C86B800CE23D2 /* EllyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllyTests.swift; sourceTree = "<group>"; };
+		4BB83B12238C86B800CE23D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB83B17238C86B800CE23D2 /* EllyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB83B1B238C86B800CE23D2 /* EllyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllyUITests.swift; sourceTree = "<group>"; };
+		4BB83B1D238C86B800CE23D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB83AF0238C86B400CE23D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB83B09238C86B800CE23D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB83B14238C86B800CE23D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB83AEA238C86B400CE23D2 = {
+			isa = PBXGroup;
+			children = (
+				4BB83AF5238C86B400CE23D2 /* Elly */,
+				4BB83B0F238C86B800CE23D2 /* EllyTests */,
+				4BB83B1A238C86B800CE23D2 /* EllyUITests */,
+				4BB83AF4238C86B400CE23D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB83AF4238C86B400CE23D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB83AF3238C86B400CE23D2 /* Elly.app */,
+				4BB83B0C238C86B800CE23D2 /* EllyTests.xctest */,
+				4BB83B17238C86B800CE23D2 /* EllyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB83AF5238C86B400CE23D2 /* Elly */ = {
+			isa = PBXGroup;
+			children = (
+				4BB83AF6238C86B400CE23D2 /* AppDelegate.swift */,
+				4BB83AF8238C86B400CE23D2 /* SceneDelegate.swift */,
+				4BB83AFD238C86B400CE23D2 /* ContentView.swift */,
+				4BB83AFF238C86B800CE23D2 /* Assets.xcassets */,
+				4BB83B04238C86B800CE23D2 /* LaunchScreen.storyboard */,
+				4BB83B07238C86B800CE23D2 /* Info.plist */,
+				4BB83AFA238C86B400CE23D2 /* Elly.xcdatamodeld */,
+				4BB83B01238C86B800CE23D2 /* Preview Content */,
+			);
+			path = Elly;
+			sourceTree = "<group>";
+		};
+		4BB83B01238C86B800CE23D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BB83B02238C86B800CE23D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BB83B0F238C86B800CE23D2 /* EllyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB83B10238C86B800CE23D2 /* EllyTests.swift */,
+				4BB83B12238C86B800CE23D2 /* Info.plist */,
+			);
+			path = EllyTests;
+			sourceTree = "<group>";
+		};
+		4BB83B1A238C86B800CE23D2 /* EllyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB83B1B238C86B800CE23D2 /* EllyUITests.swift */,
+				4BB83B1D238C86B800CE23D2 /* Info.plist */,
+			);
+			path = EllyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB83AF2238C86B400CE23D2 /* Elly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB83B20238C86B800CE23D2 /* Build configuration list for PBXNativeTarget "Elly" */;
+			buildPhases = (
+				4BB83AEF238C86B400CE23D2 /* Sources */,
+				4BB83AF0238C86B400CE23D2 /* Frameworks */,
+				4BB83AF1238C86B400CE23D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elly;
+			productName = Elly;
+			productReference = 4BB83AF3238C86B400CE23D2 /* Elly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BB83B0B238C86B800CE23D2 /* EllyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB83B23238C86B800CE23D2 /* Build configuration list for PBXNativeTarget "EllyTests" */;
+			buildPhases = (
+				4BB83B08238C86B800CE23D2 /* Sources */,
+				4BB83B09238C86B800CE23D2 /* Frameworks */,
+				4BB83B0A238C86B800CE23D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB83B0E238C86B800CE23D2 /* PBXTargetDependency */,
+			);
+			name = EllyTests;
+			productName = EllyTests;
+			productReference = 4BB83B0C238C86B800CE23D2 /* EllyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BB83B16238C86B800CE23D2 /* EllyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB83B26238C86B800CE23D2 /* Build configuration list for PBXNativeTarget "EllyUITests" */;
+			buildPhases = (
+				4BB83B13238C86B800CE23D2 /* Sources */,
+				4BB83B14238C86B800CE23D2 /* Frameworks */,
+				4BB83B15238C86B800CE23D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB83B19238C86B800CE23D2 /* PBXTargetDependency */,
+			);
+			name = EllyUITests;
+			productName = EllyUITests;
+			productReference = 4BB83B17238C86B800CE23D2 /* EllyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB83AEB238C86B400CE23D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Valentine Khutornenko";
+				TargetAttributes = {
+					4BB83AF2238C86B400CE23D2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					4BB83B0B238C86B800CE23D2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4BB83AF2238C86B400CE23D2;
+					};
+					4BB83B16238C86B800CE23D2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4BB83AF2238C86B400CE23D2;
+					};
+				};
+			};
+			buildConfigurationList = 4BB83AEE238C86B400CE23D2 /* Build configuration list for PBXProject "Elly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BB83AEA238C86B400CE23D2;
+			productRefGroup = 4BB83AF4238C86B400CE23D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB83AF2238C86B400CE23D2 /* Elly */,
+				4BB83B0B238C86B800CE23D2 /* EllyTests */,
+				4BB83B16238C86B800CE23D2 /* EllyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB83AF1238C86B400CE23D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB83B06238C86B800CE23D2 /* LaunchScreen.storyboard in Resources */,
+				4BB83B03238C86B800CE23D2 /* Preview Assets.xcassets in Resources */,
+				4BB83B00238C86B800CE23D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB83B0A238C86B800CE23D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB83B15238C86B800CE23D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB83AEF238C86B400CE23D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB83AFC238C86B400CE23D2 /* Elly.xcdatamodeld in Sources */,
+				4BB83AF7238C86B400CE23D2 /* AppDelegate.swift in Sources */,
+				4BB83AFE238C86B400CE23D2 /* ContentView.swift in Sources */,
+				4BB83AF9238C86B400CE23D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB83B08238C86B800CE23D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB83B11238C86B800CE23D2 /* EllyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB83B13238C86B800CE23D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB83B1C238C86B800CE23D2 /* EllyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB83B0E238C86B800CE23D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB83AF2238C86B400CE23D2 /* Elly */;
+			targetProxy = 4BB83B0D238C86B800CE23D2 /* PBXContainerItemProxy */;
+		};
+		4BB83B19238C86B800CE23D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB83AF2238C86B400CE23D2 /* Elly */;
+			targetProxy = 4BB83B18238C86B800CE23D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BB83B04238C86B800CE23D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB83B05238C86B800CE23D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BB83B1E238C86B800CE23D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BB83B1F238C86B800CE23D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB83B21238C86B800CE23D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Elly/Preview Content\"";
+				DEVELOPMENT_TEAM = 973TU6JN8G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Elly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.Elly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BB83B22238C86B800CE23D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Elly/Preview Content\"";
+				DEVELOPMENT_TEAM = 973TU6JN8G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Elly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.Elly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BB83B24238C86B800CE23D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973TU6JN8G;
+				INFOPLIST_FILE = EllyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.EllyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elly.app/Elly";
+			};
+			name = Debug;
+		};
+		4BB83B25238C86B800CE23D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973TU6JN8G;
+				INFOPLIST_FILE = EllyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.EllyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elly.app/Elly";
+			};
+			name = Release;
+		};
+		4BB83B27238C86B800CE23D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973TU6JN8G;
+				INFOPLIST_FILE = EllyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.EllyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elly;
+			};
+			name = Debug;
+		};
+		4BB83B28238C86B800CE23D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973TU6JN8G;
+				INFOPLIST_FILE = EllyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.EllyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB83AEE238C86B400CE23D2 /* Build configuration list for PBXProject "Elly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB83B1E238C86B800CE23D2 /* Debug */,
+				4BB83B1F238C86B800CE23D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB83B20238C86B800CE23D2 /* Build configuration list for PBXNativeTarget "Elly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB83B21238C86B800CE23D2 /* Debug */,
+				4BB83B22238C86B800CE23D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB83B23238C86B800CE23D2 /* Build configuration list for PBXNativeTarget "EllyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB83B24238C86B800CE23D2 /* Debug */,
+				4BB83B25238C86B800CE23D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB83B26238C86B800CE23D2 /* Build configuration list for PBXNativeTarget "EllyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB83B27238C86B800CE23D2 /* Debug */,
+				4BB83B28238C86B800CE23D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BB83AFA238C86B400CE23D2 /* Elly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BB83AFB238C86B400CE23D2 /* Elly.xcdatamodel */,
+			);
+			currentVersion = 4BB83AFB238C86B400CE23D2 /* Elly.xcdatamodel */;
+			path = Elly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BB83AEB238C86B400CE23D2 /* Project object */;
+}
